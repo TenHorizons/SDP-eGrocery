@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Homepage - eGrocer</title>
+</head>
+
+<body>
+<div><h1>eGrocer</h1></div>
+<div><h2>Homepage</h2></div>
+<div><label for="Search">Search: </label> <input type="text" id="Search" placeholder="Search for any of our products using keywords...">
+</div>
+<div><h3>Categories</h3></div>
+</body>
+
+</html>
