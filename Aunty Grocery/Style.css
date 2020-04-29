@@ -4,7 +4,6 @@
 }
 body {
   background-color: white;
-   overflow: auto;
 }
 /*Menu*/
 /*Logo Left*/
@@ -65,9 +64,4 @@ nav ul li#food_items:hover ul li {
 #signup_btn,
 #signin_btn {
   cursor: pointer;
-}
-
-/*login*/
-.login{
-  background-color: white;
 }
