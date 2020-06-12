@@ -1,8 +1,9 @@
 body {
-    color: lightyellow;
+    background-color: lightyellow;
 }
 
 .navigation {
     height:60px;
-    border: solid 10 px black;
+    width: 100%;
+    background-color: yellow;
 }
