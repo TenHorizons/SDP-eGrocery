@@ -1,7 +1,11 @@
 body {
     background-color: lightyellow;
+    color:black;
+    border:solid 1px black;
+
 }
 
-.navigation {
-    width: 100%;
+
+button {
+    margin: 10px 10px 30px 10px;
 }
