@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Classimax</title>
+  <title>E-Grocery</title>
   
   <!-- FAVICON -->
   <link href="img/favicon.png" rel="shortcut icon">
@@ -36,16 +36,22 @@
 
 </head>
 
-<body class="body-wrapper">
-
-<section>
+<body>
+        <h2>Checkout Form</h2>
+        <div class="col-75"
+            <div class="container">
+                <form action="action_page.php">
+        </div>
+        
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<nav class="navbar navbar-expand-lg navbar-light navigation">
 					<a class="navbar-brand" href="index.html">
-						<img src="images/logo.png" alt="">
-					</a>
+						<img src="images/eGrocery_SDP(Logo).jpeg" alt="">
+                    </a>
+                    
+                    
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -119,18 +125,17 @@
 				<div class="advance-search">
 					<form>
 						<div class="form-row">
-							<div class="form-group col-md-4">
-								<input type="text" class="form-control my-2 my-lg-0" id="inputtext4" placeholder="What are you looking for">
-							</div>
-							<div class="form-group col-md-3">
-								<input type="text" class="form-control my-2 my-lg-0" id="inputCategory4" placeholder="Category">
-							</div>
-							<div class="form-group col-md-3">
-								<input type="text" class="form-control my-2 my-lg-0" id="inputLocation4" placeholder="Location">
-							</div>
-							<div class="form-group col-md-2">
+							
 
-								<button type="submit" class="btn btn-primary">Search Now</button>
+						<div class="search-box">
+                            <input class="search.txt" type="text" name=""placeholder="Type to search">
+                            <a class="search-btn" href="#">
+
+                            </a>		
+                            
+    
+
+                
 							</div>
 						</div>
 					</form>
@@ -144,84 +149,29 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="search-result bg-gray">
-					<h2>Results For "Electronics"</h2>
-					<p>123 Results on 12 December, 2017</p>
+					<div class="cart-page-logo__page-name">shopping cart</div>
+				
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-3 col-md-4">
-				<div class="category-sidebar">
-					<div class="widget category-list">
-	<h4 class="widget-header">All Category</h4>
-	<ul class="category-list">
-		<li><a href="category.html">Laptops <span>93</span></a></li>
-		<li><a href="category.html">Iphone <span>233</span></a></li>
-		<li><a href="category.html">Microsoft  <span>183</span></a></li>
-		<li><a href="category.html">Monitors <span>343</span></a></li>
-	</ul>
+
+			
 </div>
 
-<div class="widget category-list">
-	<h4 class="widget-header">Nearby</h4>
-	<ul class="category-list">
-		<li><a href="category.html">New York <span>93</span></a></li>
-		<li><a href="category.html">New Jersy <span>233</span></a></li>
-		<li><a href="category.html">Florida  <span>183</span></a></li>
-		<li><a href="category.html">California <span>120</span></a></li>
-		<li><a href="category.html">Texas <span>40</span></a></li>
-		<li><a href="category.html">Alaska <span>81</span></a></li>
-	</ul>
+
+
 </div>
 
-<div class="widget filter">
-	<h4 class="widget-header">Show Produts</h4>
-	<select>
-		<option>Popularity</option>
-		<option value="1">Top rated</option>
-		<option value="2">Lowest Price</option>
-		<option value="4">Highest Price</option>
-	</select>
+
 </div>
 
-<div class="widget price-range w-100">
-	<h4 class="widget-header">Price Range</h4>
-	<div class="block">
-						<input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000" data-slider-step="5"
-						data-slider-value="[0,5000]">
-				<div class="d-flex justify-content-between mt-2">
-						<span class="value">$10 - $5000</span>
-				</div>
+
+					
 	</div>
 </div>
 
-<div class="widget product-shorting">
-	<h4 class="widget-header">By Condition</h4>
-	<div class="form-check">
-	  <label class="form-check-label">
-	    <input class="form-check-input" type="checkbox" value="">
-	    Brand New
-	  </label>
-	</div>
-	<div class="form-check">
-	  <label class="form-check-label">
-	    <input class="form-check-input" type="checkbox" value="">
-	    Almost New
-	  </label>
-	</div>
-	<div class="form-check">
-	  <label class="form-check-label">
-	    <input class="form-check-input" type="checkbox" value="">
-	    Gently New
-	  </label>
-	</div>
-	<div class="form-check">
-	  <label class="form-check-label">
-	    <input class="form-check-input" type="checkbox" value="">
-	    Havely New
-	  </label>
-	</div>
-</div>
+
+
 
 				</div>
 			</div>
@@ -251,190 +201,87 @@
 							</div>
 						</div>
 					</div>
-				</div>
+                </div>
+                <div class="row">
+                        <div class="col-58">
+                            <h3>Billing Address</h3>
+           <label for="fname"></i class="fa fa-user">Full Name</label>
+           <input type="text" id="tname" name="firstname" placeholder="Ali mohhamad">
+           <label for="email"></i class="fa fa-user">Email</label>
+           <input type="text" id="email" name="firstname" placeholder="Ali@example.com               
+           <label for="adr"></i class="fa fa-address-card-o">Address</label">
+           <input type="text" id="adr" name="address" placeholder="Ali tanah rata 39000">               
+           <label for="city"></i class="fa fa-institution">City</label>
+           <input type="text" id="city" name="firstname" placeholder="phone penh">    
+           
+           <div class="row">
+                <div class="col-50">
+                     <label for="state">State</label>
+                     <input type="text" id="state" name="state" placeholder="Malaysia">
+          </div>
+          <div class="col-50">
+                     <label for="zip">Zip</label>
+                     <input type="text" id="zip" name="zip" placeholder="39000">
+                </div>
+              </div>
+            </div>
 
-				<!-- ad listing list  -->
-				<div class="ad-listing-list mt-20">
-    <div class="row p-lg-3 p-sm-5 p-4">
-        <div class="col-lg-4 align-self-center">
-            <a href="single.html">
-                <img src="images/products/products-1.jpg" class="img-fluid" alt="">
-            </a>
-        </div>
-        <div class="col-lg-8">
-            <div class="row">
-                <div class="col-lg-6 col-md-10">
-                    <div class="ad-listing-content">
-                        <div>
-                            <a href="single.html" class="font-weight-bold">11inch Macbook Air</a>
-                        </div>
-                        <ul class="list-inline mt-2 mb-3">
-                            <li class="list-inline-item"><a href="category.html"> <i class="fa fa-folder-open-o"></i> Electronics</a></li>
-                            <li class="list-inline-item"><a href=""><i class="fa fa-calendar"></i>26th December</a></li>
-                        </ul>
-                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-                    </div>
+<div class="col-50">
+        <div class="col-50">
+                <h3>Payment</h3>
+                <label for="fname">Accepted Cards</label>
+                <div class="icon-container">
+                  <i class="fa fa-cc-visa" style="color:navy;"></i>
+                  <i class="fa fa-cc-amex" style="color:blue;"></i>
+                  <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                  <i class="fa fa-cc-discover" style="color:orange;"></i>
+                
                 </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="product-ratings float-lg-right pb-3">
-                        <ul class="list-inline">
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="Ali mohhamad">
+                <label for="ccnum">Credit card number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="expmonth">Exp Month</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+    
+                <div class="row">
+                  <div class="col-50">
+                    <label for="expyear">Exp Year</label>
+                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                  </div>
+                  <div class="col-50">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                  </div>
                 </div>
+              </div>
+    
             </div>
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+            </label>
+            <input type="submit" value="Continue to checkout" class="btn">
+          </form>
         </div>
+      </div>
+    
+      <div class="col-25">
+        <div class="container">
+          <h4>Cart
+            <span class="price" style="color:black">
+              <i class="fa fa-shopping-cart"></i>
+              <b>4</b>
+            </span>
+          </h4>
+          <p><a href="#">Product 1</a> <span class="price">RM15</span></p>
+          <p><a href="#">Product 2</a> <span class="price">RM5</span></p>
+          <p><a href="#">Product 3</a> <span class="price">RM8</span></p>
+          <p><a href="#">Product 4</a> <span class="price">RM2</span></p>
+          <hr>
+          <p>Total <span class="price" style="color:black"><b>RM30</b></span></p>
+        </div>
+      </div>
     </div>
-</div>
-				<div class="ad-listing-list mt-20">
-    <div class="row p-lg-3 p-sm-5 p-4">
-        <div class="col-lg-4 align-self-center">
-            <a href="single.html">
-                <img src="images/products/products-2.jpg" class="img-fluid" alt="">
-            </a>
-        </div>
-        <div class="col-lg-8">
-            <div class="row">
-                <div class="col-lg-6 col-md-10">
-                    <div class="ad-listing-content">
-                        <div>
-                            <a href="single.html" class="font-weight-bold">Study Table Combo</a>
-                        </div>
-                        <ul class="list-inline mt-2 mb-3">
-                            <li class="list-inline-item"><a href="category.html"> <i class="fa fa-folder-open-o"></i> Electronics</a></li>
-                            <li class="list-inline-item"><a href=""><i class="fa fa-calendar"></i>26th December</a></li>
-                        </ul>
-                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="product-ratings float-lg-right pb-3">
-                        <ul class="list-inline">
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-				<div class="ad-listing-list mt-20">
-    <div class="row p-lg-3 p-sm-5 p-4">
-        <div class="col-lg-4 align-self-center">
-            <a href="single.html">
-                <img src="images/products/products-3.jpg" class="img-fluid" alt="">
-            </a>
-        </div>
-        <div class="col-lg-8">
-            <div class="row">
-                <div class="col-lg-6 col-md-10">
-                    <div class="ad-listing-content">
-                        <div>
-                            <a href="single.html" class="font-weight-bold">11inch Macbook Air</a>
-                        </div>
-                        <ul class="list-inline mt-2 mb-3">
-                            <li class="list-inline-item"><a href="category.html"> <i class="fa fa-folder-open-o"></i> Electronics</a></li>
-                            <li class="list-inline-item"><a href=""><i class="fa fa-calendar"></i>26th December</a></li>
-                        </ul>
-                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="product-ratings float-lg-right pb-3">
-                        <ul class="list-inline">
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-				<div class="ad-listing-list mt-20">
-    <div class="row p-lg-3 p-sm-5 p-4">
-        <div class="col-lg-4 align-self-center">
-            <a href="single.html">
-                <img src="images/products/products-4.jpg" class="img-fluid" alt="">
-            </a>
-        </div>
-        <div class="col-lg-8">
-            <div class="row">
-                <div class="col-lg-6 col-md-10">
-                    <div class="ad-listing-content">
-                        <div>
-                            <a href="single.html" class="font-weight-bold">Study Table Combo</a>
-                        </div>
-                        <ul class="list-inline mt-2 mb-3">
-                            <li class="list-inline-item"><a href="category.html"> <i class="fa fa-folder-open-o"></i> Electronics</a></li>
-                            <li class="list-inline-item"><a href=""><i class="fa fa-calendar"></i>26th December</a></li>
-                        </ul>
-                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="product-ratings float-lg-right pb-3">
-                        <ul class="list-inline">
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-				<div class="ad-listing-list mt-20">
-    <div class="row p-lg-3 p-sm-5 p-4">
-        <div class="col-lg-4 align-self-center">
-            <a href="single.html">
-                <img src="images/products/products-1.jpg" class="img-fluid" alt="">
-            </a>
-        </div>
-        <div class="col-lg-8">
-            <div class="row">
-                <div class="col-lg-6 col-md-10">
-                    <div class="ad-listing-content">
-                        <div>
-                            <a href="single.html" class="font-weight-bold">11inch Macbook Air</a>
-                        </div>
-                        <ul class="list-inline mt-2 mb-3">
-                            <li class="list-inline-item"><a href="category.html"> <i class="fa fa-folder-open-o"></i> Electronics</a></li>
-                            <li class="list-inline-item"><a href=""><i class="fa fa-calendar"></i>26th December</a></li>
-                        </ul>
-                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="product-ratings float-lg-right pb-3">
-                        <ul class="list-inline">
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-				<!-- ad listing list  -->
 
 				<!-- pagination -->
 				<div class="pagination justify-content-center py-4">
@@ -446,13 +293,7 @@
 									<span class="sr-only">Previous</span>
 								</a>
 							</li>
-							<li class="page-item"><a class="page-link" href="#">1</a></li>
-							<li class="page-item active"><a class="page-link" href="#">2</a></li>
-							<li class="page-item"><a class="page-link" href="#">3</a></li>
-							<li class="page-item">
-								<a class="page-link" href="#" aria-label="Next">
-									<span aria-hidden="true">&raquo;</span>
-									<span class="sr-only">Next</span>
+							
 								</a>
 							</li>
 						</ul>
@@ -476,11 +317,9 @@
         <!-- About -->
         <div class="block about">
           <!-- footer logo -->
-          <img src="images/logo-footer.png" alt="">
+          <img src="images/eGrocery_SDP(Logo).jpeg" alt="">
           <!-- description -->
-          <p class="alt-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="alt-color"></p>
         </div>
       </div>
       <!-- Link list -->
