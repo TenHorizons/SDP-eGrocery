@@ -1,0 +1,249 @@
+/*=== MEDIA QUERY ===*/
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900");
+body,html{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Muli", sans-serif;
+}
+
+/*Navigation Bar*/
+.Navigation{
+     overflow:hidden;
+    
+}
+.Navigation a{
+     float:left;
+     display:block;
+     color:black;
+     text-align:center;
+     padding:10px 16px;
+     text-decoration:none;
+     font-size:18px;
+     font-style:italic;
+}
+     
+.Navigation a:hover{
+    color: #021B4D;
+    text-decoration:none;
+}
+.current{
+    color:#021B4D !important;
+    font-weight:bold;
+}
+.nav-item{
+    margin-top:40px;  
+}
+/* Account- Right*/
+.Account-right{
+    float:right;
+}
+
+.Account-right a{
+    border-radius: 6px;
+    background-color:#021B4D ;
+    position:relative;
+    margin-right:40px;
+    padding:10px 25px;
+    color:white;
+    margin-top:32px;
+}
+.Account-right a:hover{
+    color:#FFDF00;
+}
+/*Search*/
+.Search{
+    background-color:#021B4D;
+    width:58%;
+    height:70px;
+    margin-left:20%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.search{
+    margin-left:20px;
+    margin-top:2%;
+    height:30px;
+    border-radius:50px;
+    font-size:16px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.Category{
+margin-left:20px;
+height:30px;
+border-radius:2px;
+font-size:16px;
+box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Price-Range{
+margin-left:20px;
+height:30px;
+border-radius:2px;
+font-size:16px;
+box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-btn{
+margin-left:20px;
+height:30px;
+border-radius:2px;
+font-size:16px;
+width:10%;
+background-color:#FBB124;
+border:none;
+color:#fff;
+box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*Cart*/
+.cart{
+    background-color:#021B4D;
+    width:20%;
+    height:500px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left:5%;
+    margin-top:5%;
+}
+
+.cart-title{
+    color:white;
+    text-align:center;
+    padding-top:20px;
+    font-size:40px;
+}
+
+.checkout{
+    background-color:#FBB124;
+    width:30%;
+    height:40px;
+    border-radius:2px;
+    border:none;
+    font-size:18px;
+    margin-left:35%;
+    color:#fff;
+    margin-top:330px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*Products*/
+.Product-list{
+    margin-top:-33%;
+    margin-left:30%;
+}
+.card {
+    width:900px;
+    height:249px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-title{
+    margin-left:43%;
+    margin-top:-27%;
+    font-family:arial black;
+    font-size:40px;
+    font-style:bold;
+}
+.price{
+    margin-left:44%;
+    color:orange;
+    font-size:20px;
+    margin-top:-3%;
+}
+.description-title{
+    margin-left:43%;
+    margin-top:2%;
+    font-size:18px;
+}
+.description{
+    margin-left:55%;
+    margin-top:-4.5%;
+    font-size:16px;
+    font-style:italic;
+}
+.quantity{
+    margin-left:43%;
+    font-size:16px; 
+}
+
+form{
+    margin-top:-4%;
+    margin-left:51%;
+}
+
+.minus{
+    height:20px;
+    width:20px;
+}
+
+.plus{
+    height:20px;
+    width:20px;
+}
+
+.qty{
+    width:20px;
+}
+
+.buy{
+    margin-left:70%;
+   background-color:#FBB124;
+   width: 10%;
+   height:50px;
+   border-radius:6px;
+   border:none;
+   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+   color:#fff;
+   font-family:calibri;
+   font-size:20px;
+}
+.add-to-cart{
+   margin-left:1%;
+   background-color:#FBB124;
+   width: 15%;
+   height:50px;
+   border-radius:6px;
+   border:none;
+   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+   color:#fff;
+   font-family:calibri;
+   font-size:20px;
+}
+
+/*Pagination*/
+
+.pagination a {
+    margin-top: 2%;
+    color: black;
+    float: left;
+    text-decoration: none;
+    transition: background-color .3s;
+    padding: 8px 16px;
+    position: relative;
+    left: 68%;
+  }
+  
+  .pagination a.active {
+    background-color:#021B4D;
+    color: white;
+    text-decoration:none;
+  }
+  
+  .pagination a:hover:not(.active) {
+      background-color: #ddd;
+      text-decoration:none;
+    }
+
+    /*Footer*/
+  .Footer{
+    width:100%;
+     background-color:#021B4D;
+     color: white;
+     text-align: center;
+     margin-top:8% !important;
+     bottom:0;
+     height: 55px;
+  }
+  .fa{
+    margin-top:8px;
+}
+  
