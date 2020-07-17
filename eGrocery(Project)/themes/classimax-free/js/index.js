@@ -1,5 +1,5 @@
-function SearchFunction() {
-    var x = document.getElementById("IndexSearch");
-
-    alert(x);
+const main = function() {
+    document.getElementById
 }
+
+document.addEventListener("DOMContentLoaded",function(){main();});
